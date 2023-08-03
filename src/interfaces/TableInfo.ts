@@ -1,6 +1,6 @@
 import TableButton from "./TableButton";
 
 export default interface TableInfo {
-    tHeads: string[],
+    tHeads: (string | TableButton[])[],
     tRows: (string | TableButton[])[][]
 }
