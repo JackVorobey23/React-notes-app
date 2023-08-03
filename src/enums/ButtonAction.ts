@@ -4,5 +4,6 @@ export enum ButtonAction {
     ArchiveNote,
     UnarchiveNote,
     RemoveAllNotes,
+    ArchiveAllNotes,
     UnarchiveAllNotes,
 }

@@ -1,5 +1,1 @@
-export enum Category {
-    Task,
-    RandomThought,
-    Idea
-}
+export type Category = 'Task' | 'Random Thought' | 'Idea'
