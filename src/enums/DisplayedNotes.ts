@@ -1,0 +1,1 @@
+export type DisplayedNotes = 'Active' | 'Archived' | 'All'
