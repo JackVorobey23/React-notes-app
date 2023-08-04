@@ -1,13 +1,13 @@
-import TableComponent from "../components/Table";
-import { ButtonAction } from "../enums/ButtonAction";
-import TableButton from "../interfaces/TableButton";
-import TableInfo from "../interfaces/TableInfo";
-import { useAppSelector } from "../store/hooks";
-import { DisplayedNotes } from "../enums/DisplayedNotes";
-import { useState } from "react";
 import './HomePage.scss';
-import { Category } from "../enums/Category";
-import NoteFormPopup from "../components/NoteFormPopup";
+import TableComponent from "../../components/Table";
+import { ButtonAction } from "../../enums/ButtonAction";
+import TableButton from "../../interfaces/TableButton";
+import TableInfo from "../../interfaces/TableInfo";
+import { useAppSelector } from "../../store/hooks";
+import { useState } from "react";
+import { Category } from "../../enums/Category";
+import NoteFormPopup from "../../components/NoteFormPopup";
+import { DisplayedNotes } from "../../enums/DisplayedNotes";
 export default function HomePage() {
 
     const notes = useAppSelector(state => state.notes.value);
