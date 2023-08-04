@@ -7,11 +7,11 @@ const checkNoteMiddleware: Middleware = (store) => (next) => (action) => {
         const passedNote = action.payload as Note;
 
         if (passedNote.name === '') {
-            console.log('note name does not provided');
+            console.log('Note name is not provided');
             return;
         }
         if (passedNote.content === '') {
-            console.log('note content does not provided');
+            console.log('Note content is not provided');
             return;
         }
     }

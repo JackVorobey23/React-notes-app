@@ -1,0 +1,12 @@
+.home-page {
+    justify-content: center;
+    padding: 2%;
+    & > * {
+        margin-bottom: 15px;
+    }
+}
+
+fieldset {
+    width: 60%;
+    margin: 0 auto;
+}
